@@ -7,7 +7,8 @@ body {
     padding: 0;
     max-width: 900px;  /* Match bio width */
     color: #333;
-    background: white;
+    background: linear-gradient(to bottom right, #f8f9fa, #f1f3f5);
+    min-height: 100vh;
 }
 
 /* Navbar Styles */
@@ -23,6 +24,8 @@ body {
     margin: 0 auto;
     padding: 1rem 0;
     border-bottom: 1px solid #eaeaea;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
 }
 
 .navbar-expand-lg {
@@ -255,6 +258,8 @@ nav a:hover {
     margin: 0 auto;
     padding: 1rem 0;
     border-bottom: 1px solid #eaeaea;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
 }
 
 .navbar-nav {
